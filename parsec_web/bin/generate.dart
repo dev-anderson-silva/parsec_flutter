@@ -121,6 +121,7 @@ class ParsecWebGenerator {
       ...sources,
       '-I', 'equations-parser/parser',
       '-std=c++17',
+      '-fexceptions',
       '-s', 'WASM=1',
       '-s', 'ALLOW_MEMORY_GROWTH=1',
       '-s', 'MODULARIZE=1',
